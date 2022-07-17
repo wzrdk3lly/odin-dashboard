@@ -6,7 +6,7 @@
     "gh-pages": "^4.0.0"
   },
   "scripts": {
-    "build": "tailwindcss build src/input.css -o public/styles.css",
+    "build": "tailwindcss build src/input.css -o public/input.css",
     "deploy": "gh-pages -d public",
     "predeploy": "npm run build"
   },

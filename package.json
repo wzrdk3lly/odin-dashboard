@@ -1,5 +1,28 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.1.6"
-  }
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d public",
+    "predeploy": "npm run build"
+  },
+  "name": "odin-dashboard",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "homepage": "https://wzrdk3lly.github.io/odin_dashboard/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wzrdk3lly/odin-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wzrdk3lly/odin-dashboard/issues"
+  },
+ 
+  "description": ""
 }

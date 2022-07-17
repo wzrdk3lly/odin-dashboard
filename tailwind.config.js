@@ -5,9 +5,11 @@ module.exports = {
     extend: {
       gridTemplateColumns:{
         custom: '1fr 5fr',
+        main: '3fr 1fr',
       },
       gridTemplateRows:{
         custom: '1.1fr 5fr',
+        
       }
     },
   },

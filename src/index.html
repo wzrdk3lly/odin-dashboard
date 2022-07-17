@@ -6,11 +6,12 @@
   <link href="/dist/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-slate-400">
+<body class="">
 
+  <!-- Dashboard sidebar -->
   <div class="grid grid-cols-custom grid-rows-custom h-screen">
-    <div class="border-2 row-start-1 row-end-3 text-white text-xl font-bold bg-blue-500">
-        <div class="ml-3">
+    <div class=" row-start-1 row-end-3 text-white text-xl font-bold bg-blue-500">
+        <div class="ml-3 mt-3">
             
             <a href="" class="flex items-center flex-row gap-2">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -90,13 +91,200 @@
                       </svg>
                     Privacy
                     </a>
-
             </div>
         </div>
     
     </div>
-    <div class="border-2">Logo</div>
-    <div class="border-2">Projects Section</div>
+    <!-- Header  -->
+    <div class="border-1 py-3 px-8">
+        <!-- searchbar section -->
+        <div class="border-3 flex flex-row justify-between items-center  ">
+        
+            <div class="flex flex-row ">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+                  </svg>
+                <input type="search" class="w-96 h-6 ml-4 border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 bg-slate-300 focus:border-blue-600 focus:outline-none">
+            </div>
+            <div class="flex flex-row gap-2 items-center ">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
+                      </svg>
+                </a>
+                
+                <div> 
+                    <img src="../figures/logo.png" class="w-full h-8" alt="">
+                </div>
+                <div>King Wizard</div>
+            </div>
+        </div>
+        <!-- new/upload/share section -->
+        <div class="border-3 flex flex-row justify-between mt-5 items-cente">
+        
+           
+            <div class="flex flex-row items-center">
+                <img src="../figures/logo.png" class=" h-10 mr-3" alt="">
+                <div class="text-xs">Howdy i'm,
+                    <div class="text-xl">King Wizard (@wzrdk3lly) </div>
+                </div>
+                
+            </div>
+            <div class="flex flex-row gap-5 text-xs text-white">
+                <button class="rounded-full w-14 h-8 shadow-md bg-blue-500 hover:bg-blue-600">New</button>
+                <button class="rounded-full w-14 h-8 shadow-md bg-blue-500 hover:bg-blue-600">Upload</button>
+                <button class="rounded-full w-14 h-8 shadow-md bg-blue-500 hover:bg-blue-600">Share</button>
+            </div>
+        </div>
+        
+    </div>
+    <div class=" bg-slate-300">
+        <div class=" grid w-full bg-slate-300 py-2 px-7 ">
+            
+            <!-- <div class=""> -->
+                <div class="text-2xl mb-5 mt-3">Projects</div>
+                <div class="grid grid-cols-3 grid-rows-2 gap-10">
+                     <!-- Card -->
+                    <div class="flex ">
+                        <div class="bg-green-700 h-full w-2"></div>
+                        <div class="block p-4 rounded-lg shadow-lg bg-white w-72">
+                          <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Project Etch-A-Sketch</h5>
+                          <p class="text-gray-700 text-base mb-4">
+                            Fun project to learn how to build an Etch-A-Sketch app using vanilla html,css, and javascript
+                          </p>
+                          <div class="flex flex-row gap-2">
+                            <a href="https://github.com/wzrdk3lly/Etch-A-SketchV2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                  </svg>
+                              </a>
+    
+                              <a href="https://wzrdk3lly.github.io/Etch-A-SketchV2/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                  </svg>
+                              </a>
+                          </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="flex ">
+                        <div class="bg-green-700 h-full w-2"></div>
+                        <div class="block p-4 rounded-lg shadow-lg bg-white w-72">
+                          <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Solana CTF</h5>
+                          <p class="text-gray-700 text-base mb-4">
+                            I created a simple ctf to teach entry level smart contract hackers how to find bugs. 
+                          </p>
+                          <div class="flex flex-row gap-2">
+                            <a href="https://github.com/wzrdk3lly/solana-ctf/tree/main/level-1/programs/level-1/src">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                  </svg>
+                              </a>
+    
+    
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="flex ">
+                        <div class="bg-green-700 h-full w-2"></div>
+                        <div class="block p-4 rounded-lg shadow-lg bg-white w-72">
+                          <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Landing Page</h5>
+                          <p class="text-gray-700 text-base mb-4">
+                            Introductory project where I created a fake sign-up page for my fellow hackers
+                          </p>
+                          <div class="flex flex-row gap-2">
+                            <a href="https://github.com/wzrdk3lly/odin-landing-page">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                  </svg>
+                              </a>
+    
+                              <a href="https://wzrdk3lly.github.io/odin-landing-page/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                  </svg>
+                              </a>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="flex ">
+                        <div class="bg-green-700 h-full w-2"></div>
+                        <div class="block p-4 rounded-lg shadow-lg bg-white w-72">
+                          <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Transfer Sol POC</h5>
+                          <p class="text-gray-700 text-base mb-4">
+                            This proof of concept demonstrates how to transfer Solana between two wallets
+                          </p>
+                          <div class="flex flex-row gap-2">
+                            <a href="https://github.com/wzrdk3lly/transfer-sol-poc">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                  </svg>
+                              </a>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="flex ">
+                        <div class="bg-green-700 h-full w-2"></div>
+                        <div class="block p-4 rounded-lg shadow-lg bg-white w-72">
+                          <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Calculator App</h5>
+                          <p class="text-gray-700 text-base mb-4">
+                            Used vanilla html,css, and javascript to create a calculator app
+                          </p>
+                          <div class="flex flex-row gap-2">
+                            <a href="https://github.com/wzrdk3lly/CalculatorV2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                  </svg>
+                              </a>
+    
+                              <a href="https://wzrdk3lly.github.io/CalculatorV2/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                  </svg>
+                              </a>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="flex ">
+                        <div class="bg-green-700 h-full w-2"></div>
+                        <div class="block p-4 rounded-lg shadow-lg bg-white w-72">
+                          <h5 class="text-gray-900 text-xl leading-tight font-medium mb-2">Rock Paper Scissors</h5>
+                          <p class="text-gray-700 text-base mb-4">
+                            Created a simple and fun game where you play rock paper scissors with the computer
+                          </p>
+                          <div class="flex flex-row gap-2">
+                            <a href="https://github.com/wzrdk3lly/rock-paper-scissorsV2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                                  </svg>
+                              </a>
+    
+                              <a href="https://wzrdk3lly.github.io/rock-paper-scissorsV2/">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 hover:text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
+                                  </svg>
+                              </a>
+                          </div>
+                        </div>
+                    </div>
+
+                </div>
+            <!-- </div> -->
+            <!-- <div class="border-2"></div> -->
+        </div>
+    </div>
+   
   </div>
 </body>
 </html>
